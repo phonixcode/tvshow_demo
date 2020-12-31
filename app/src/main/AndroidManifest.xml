@@ -15,15 +15,22 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".activities.SearchActivity" />
-        <activity android:name=".activities.WatchlistActivity" />
-        <activity android:name=".activities.TVShowDetailsActivity" />
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.SearchActivity" />
+        <activity android:name=".activities.WatchlistActivity" />
+        <activity android:name=".activities.TVShowDetailsActivity" />
+        <activity android:name=".activities.MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 
