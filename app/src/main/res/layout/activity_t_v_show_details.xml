@@ -100,7 +100,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:background="@drawable/background_back_button"
                     android:contentDescription="@string/app_name"
-                    android:padding="@dimen/_3sdp"
+                    android:padding="@dimen/_7sdp"
                     android:src="@drawable/ic_back"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
