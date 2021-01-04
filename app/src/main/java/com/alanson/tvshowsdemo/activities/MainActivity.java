@@ -128,9 +128,4 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
         intent.putExtra("tvShow", tvShow);
         startActivity(intent);
     }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
 }
