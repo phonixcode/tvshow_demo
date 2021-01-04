@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        if (!isConnected(this)){
+        if (!isConnected(this)) {
             showCustomDialog();
-        }else {
+        } else {
             doInitialization();
         }
 
@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
     }
 
 
-
     private void getMostPopularTVShows() {
         toggleLoading();
         viewModel.getMostPopularTVShow(currentPage).observe(this, mostPopularTVShowsResponse -> {
@@ -127,5 +126,14 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
         Intent intent = new Intent(getApplicationContext(), TVShowDetailsActivity.class);
         intent.putExtra("tvShow", tvShow);
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Are you sure you want to Exit?")
+                .setNegativeButton("No", null)
+                .setPositiveButton("Yes", (dialogInterface, i) -> finishAffinity())
+                .show();
     }
 }
