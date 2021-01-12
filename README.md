@@ -2,8 +2,6 @@
 An informative app that gives information about TV shows, you can also add TV shows to watchlist
 
 ################################################################
-
-<p>
     Components:
     * MVVM Architecture
     * Retrofit
@@ -12,7 +10,6 @@ An informative app that gives information about TV shows, you can also add TV sh
     * RxJava
     * Material Design
     * Data Binding
-</p>
 
 CLICK TO DOWNLOAD:  https://drive.google.com/file/d/1F5JhrSNaAobc9UNxBumpS-mjpXQr44-a/view?usp=sharing
 
