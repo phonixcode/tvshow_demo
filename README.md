@@ -2,7 +2,8 @@
 An informative app that gives information about TV shows, you can also add TV shows to watchlist
 
 ################################################################
-    Components:
+
+  Components:
     * MVVM Architecture
     * Retrofit
     * Lifecycle Extensions
