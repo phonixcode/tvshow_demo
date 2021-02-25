@@ -12,5 +12,4 @@ Components:
 * Material Design
 * Data Binding
 
-CLICK TO DOWNLOAD:  https://drive.google.com/file/d/1F5JhrSNaAobc9UNxBumpS-mjpXQr44-a/view?usp=sharing
-
+CLICK TO DOWNLOAD:  https://drive.google.com/file/d/1F5JhrSNaAobc9UNxBumpS-mjpXQr44-a/view
